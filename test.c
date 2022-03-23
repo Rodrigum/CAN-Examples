@@ -16,7 +16,7 @@
 int main(int argc, char **argv)
 {
     pthread_t thread_read, thread_write;
-    
+    //test test test
     pthread_create(&thread_write, NULL, CanSendTest, NULL);
     pthread_create(&thread_read, NULL, CanReceiveTest, NULL);
     
